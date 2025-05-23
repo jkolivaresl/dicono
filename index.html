@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LexAcademia - Estudio Jurídico</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+      <nav class="navbar">
+        <div class="container nav-container">
+          <h1 class="logo">LexAcademia</h1>
+          <button class="menu-toggle" id="menu-toggle">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+          </button>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero-content">
+      <h1>Transforma tu futuro<br /><span class="highlight">con nuestros Cursos Jurídicos</span></h1>
+      <div class="hero-buttons">
+        <a href="#cursos" class="btn btn-primary">Ver Cursos</a>
+        <a href="#contacto" class="btn btn-secondary">Solicita Información</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CURSOS -->
+  <section id="cursos" class="section cursos">
+    <div class="container">
+      <h2 class="section-title">Cursos Destacados</h2>
+      <div class="cards-grid">
+        <div class="curso-card">
+          <div class="curso-icon">🏛️</div>
+          <h3>Derecho Penal</h3>
+          <p>Fundamentos y técnicas del derecho penal moderno.</p>
+          <a href="#" class="btn-curso">Ver más</a>
+        </div>
+        <div class="curso-card">
+          <div class="curso-icon">📄</div>
+          <h3>Derecho Civil</h3>
+          <p>Principios del derecho civil aplicado a casos reales.</p>
+          <a href="#" class="btn-curso">Ver más</a>
+        </div>
+        <div class="curso-card">
+          <div class="curso-icon">⚖️</div>
+          <h3>Derecho Procesal</h3>
+          <p>Procedimientos judiciales y estrategias legales clave.</p>
+          <a href="#" class="btn-curso">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE NOSOTROS -->
+<section id="nosotros" class="section sobre-nosotros">
+  <div class="overlay"></div>
+  <div class="container-nosotros">
+    <h2 class="section-title">Sobre Nosotros</h2>
+    <p class="intro-text">Conoce quiénes somos, nuestra misión y los valores que nos impulsan.</p>
+
+    <div class="cards-nosotros">
+      <div class="card-nosotros">
+        <div class="icono">🎓</div>
+        <h3>Misión</h3>
+        <p>Formar profesionales del derecho con conocimientos sólidos, críticos y éticos.</p>
+      </div>
+      <div class="card-nosotros">
+        <div class="icono">💼</div>
+        <h3>Visión</h3>
+        <p>Ser líderes en la educación jurídica moderna y accesible en toda Latinoamérica.</p>
+      </div>
+      <div class="card-nosotros">
+        <div class="icono">🤝</div>
+        <h3>Valores</h3>
+        <p>Compromiso, integridad, excelencia, responsabilidad y vocación por enseñar.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- TESTIMONIOS -->
+<section id="testimonios" class="testimonios section">
+  <h2 class="section-title">Testimonios</h2>
+  <div class="carousel-container">
+    <div class="testimonio active">
+      "Muy buen contenido, los cursos me ayudaron muchísimo."
+      <strong>— María López</strong>
+    </div>
+    <div class="testimonio">
+      "Explicaciones claras y precisas. ¡Muy recomendable!"
+      <strong>— Juan Pérez</strong>
+    </div>
+    <div class="testimonio">
+      "Excelente plataforma, fácil de usar y con soporte eficiente."
+      <strong>— Laura García</strong>
+    </div>
+  </div>
+  <div class="carousel-controls">
+    <button id="prev">&#8592;</button>
+    <button id="next">&#8594;</button>
+  </div>
+</section>
+
+
+
+
+
+
+  <!-- CONTACTO -->
+<section id="contactanos" class="contactanos section">
+  <div class="container contactanos-container">
+    <h2 class="section-title">Contáctanos</h2>
+    <div class="contact-content">
+      <form class="contact-form">
+        <input type="text" placeholder="Nombre completo" required />
+        <input type="email" placeholder="Correo electrónico" required />
+        <input type="tel" placeholder="Teléfono" />
+        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+        <button type="submit" class="btn-contacto">Enviar Mensaje</button>
+      </form>
+      <div class="contact-info">
+        <h3>Información de contacto</h3>
+        <p><span class="icon">📞</span> +54 11 1234 5678</p>
+        <p><span class="icon">📧</span> contacto@tuempresa.com</p>
+        <p><span class="icon">📍</span> Av. Siempre Viva 742, Ciudad</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 LexAcademia. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
